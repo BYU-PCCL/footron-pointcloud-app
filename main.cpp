@@ -33,7 +33,7 @@ static void draw(const pcl::PointCloud<pcl::PointXYZRGB>::Ptr &cloud) {
   // Constant animating rotation
   glRotatef(angle, 0.0, 1.0, 0.0);
   // This number (40) is really specific to the dimensions of the data I'm working with to test this
-  glScalef(40.f, 40.f, 40.f);
+  glScalef(80.f, 80.f, 80.f);
   // glRotatef(view_roty, 0.0, 1.0, 0.0);
   // glRotatef(view_rotz, 0.0, 0.0, 1.0);
 
